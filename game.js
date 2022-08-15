@@ -36,7 +36,7 @@ document.querySelector(".check").addEventListener("click",function(){
           }
       });
 
-      /* ***** Dry principlr exploited ***** */
+      /* ***** Dry principle exploited ***** */
 //     }else if(guess>secretNumber){
 //         if(score>1){
 //         document.querySelector(".message").textContent = "Too High !";
