@@ -116,3 +116,41 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+/* //Responsiveness */
+@media (min-width:374px) and (max-width:570px){
+   
+   h1{
+    font-size: 2rem;
+   }
+   p{
+    font-size: 1.25rem;
+   }
+   .btn {
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem;
+  }
+   .number{
+    font-size: 2.5rem;
+    
+   }
+   .guess {
+    margin-top: 8rem;
+    font-size: 3rem;
+    padding: 1.5rem;
+    width: 20rem; 
+    margin-bottom: 3rem;
+    /* justify-items:center ; */
+  }
+  main {
+    display: block;
+  }
+  .right{
+    margin-top: 1.5rem;
+    box-sizing: border-box;
+  }
+  .again{
+    top: 4rem;
+  }
+}
+
